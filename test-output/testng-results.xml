@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-19T23:16:30 IDT" name="Suite" finished-at="2021-04-19T23:17:59 IDT" duration-ms="88382">
+    <groups>
+      <group name="sanity suite">
+        <method signature="MainRunner.openSignInSection()[pri:1, instance:tests.MainRunner@54c562f7]" name="openSignInSection" class="tests.MainRunner"/>
+        <method signature="MainRunner.searchAndCalculatePrice()[pri:2, instance:tests.MainRunner@54c562f7]" name="searchAndCalculatePrice" class="tests.MainRunner"/>
+      </group> <!-- sanity suite -->
+    </groups>
+    <test started-at="2021-04-19T23:16:30 IDT" name="sanity suite" finished-at="2021-04-19T23:17:59 IDT" duration-ms="88382">
+      <class name="tests.MainRunner">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MainRunner@54c562f7]" started-at="2021-04-19T23:16:31 IDT" name="setup" finished-at="2021-04-19T23:16:33 IDT" duration-ms="1983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="openSignInSection()[pri:1, instance:tests.MainRunner@54c562f7]" started-at="2021-04-19T23:16:33 IDT" name="openSignInSection" description="Validate login page opened" finished-at="2021-04-19T23:17:05 IDT" duration-ms="32322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSignInSection -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.MainRunner@54c562f7]" started-at="2021-04-19T23:17:05 IDT" name="closeBrowser" finished-at="2021-04-19T23:17:06 IDT" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:tests.MainRunner@54c562f7]" started-at="2021-04-19T23:17:06 IDT" name="setup" finished-at="2021-04-19T23:17:07 IDT" duration-ms="1518" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchAndCalculatePrice()[pri:2, instance:tests.MainRunner@54c562f7]" started-at="2021-04-19T23:17:07 IDT" name="searchAndCalculatePrice" description="Validate price calculated correctly" finished-at="2021-04-19T23:17:58 IDT" duration-ms="51141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAndCalculatePrice -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.MainRunner@54c562f7]" started-at="2021-04-19T23:17:58 IDT" name="closeBrowser" finished-at="2021-04-19T23:17:59 IDT" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.MainRunner -->
+    </test> <!-- sanity suite -->
+  </suite> <!-- Suite -->
+</testng-results>
